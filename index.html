@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sankara Naik</div>
+        <div>
+            <ul class="nav-link">
+                <li><a href="#about">About</a></li>
+                <li><a href="#Skils">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="humburger-nav">
+        <div class="logo">Sankara Naik</div>
+        <div class="humburger-menu">
+            <div class="humburger-icon" click="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="menu-link">
+                    <li><a href="#about"  click="toggleMenu()">About</a></li>
+                    <li><a href="#Skils" click="toggleMenu()">Skills</a></li>
+                    <li><a href="#projects" click="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" click="toggleMenu()">Contact</a></li>
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+    
+
+
+
+
+    <script src="./page.js"></script>
+</body>
+</html>
