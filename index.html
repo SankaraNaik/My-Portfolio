@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./mediaquery.css">
 </head>
+
+<!-- BODY section  -->
 <body>
+
+
     <nav id="desktop-nav">
         <div class="logo">Sankara Naik</div>
         <div>
@@ -22,22 +26,95 @@
 
     <nav id="humburger-nav">
         <div class="logo">Sankara Naik</div>
+
         <div class="humburger-menu">
-            <div class="humburger-icon" click="toggleMenu()">
+            <div class="humburger-icon" onclick="toggleMenu()">
                 <span></span>
                 <span></span>
                 <span></span>
+            </div>
+                
                 <div class="menu-link">
-                    <li><a href="#about"  click="toggleMenu()">About</a></li>
-                    <li><a href="#Skils" click="toggleMenu()">Skills</a></li>
-                    <li><a href="#projects" click="toggleMenu()">Projects</a></li>
-                    <li><a href="#contact" click="toggleMenu()">Contact</a></li>
+                    <li><a href="#about"  onclick="toggleMenu()">About</a></li>
+                    <li><a href="#Skils" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
                 </div>
-
-
             </div>
         </div>
     </nav>
+
+<!-- my photo &  -->
+    <section id="profile">
+        <div class="setion-container">
+            <img src="./assets/shankar-removebg.png" alt="my profile photo">
+        </div>
+
+        <div class="section-text">
+            <p class="section-text_p1">Hello , I'm </p>
+            <h1 class="title">Sankara Naik</h1>
+            <p class="section-text_p2">Frontend Developer</p>
+
+
+            <!-- my CV  -->
+
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('assets/Sankara Naik (1).pdf')">Download CV</button> <!--CV-->
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+
+            </div>
+
+            <!-- linkedin & github -->
+
+
+            <div id="social-container">
+                <img src="./assets/linkedin.png" alt="my linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/sankara-naik-b2714b190/'">
+
+                <img src="./assets/github.png" alt="my linkedin profile" class="icon" onclick="location.href='https://github.com/SankaraNaik'">
+            </div>
+        </div>
+    </section>
+
+
+    <!--ABOUT Section-->
+    
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/shankar002.png" alt="about of my profile" class="about-pic">
+            </div>
+
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="exprience icon" class="icon">
+                    </div>
+                    <h3>Experience</h3>
+                    <p>Fresher</p>
+                </div>
+
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education" class="icon">
+                    </div>
+                    <h3>Education</h3>
+                    <p>Betchlor Of Engineering in Computer Science</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, voluptatum vitae dolores eligendi eaque amet incidunt possimus. Dignissimos libero debitis adipisci placeat architecto voluptatibus vero repellendus fugit, rem deleniti numquam!</p>
+            </div>
+        </div>
+
+      
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+
+
+
     
 
 
